@@ -2,11 +2,12 @@ import axios from "axios";
 
 // Physical phone: use your PC IPv4 address
 // Android emulator: use http://10.0.2.2:3000/api
-export const API_BASE_URL = "http://10.139.200.52:3000/api";
+//export const API_BASE_URL = "http://10.139.200.52:3000/api";
+export const API_BASE_URL = "https://arf-app-api.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 30000,
+  timeout: 60000,
   headers: {
     "Content-Type": "application/json",
   },
