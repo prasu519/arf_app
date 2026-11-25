@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "ARF - Anish Reddy Finance",
+    "slug": "arf-finance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 240,
+          "resizeMode": "contain",
+          "backgroundColor": "#07143D"
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "android": {
+      "package": "com.anishreddy.arf",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#07143D"
+      },
+      "softwareKeyboardLayoutMode": "resize"
+    }
+  }
+}
